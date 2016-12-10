@@ -1,0 +1,159 @@
+/* Reset
+-------------------------------------------------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+/* Pix
+-------------------------------------------------- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Links
+-------------------------------------------------- */
+a {
+  color: $TextGrau;
+  text-decoration: none;
+  border-bottom: 1px solid lighten($TextGrau,25%);
+  transition: color .3s;
+}
+
+a:visited {
+	color: lighten($TextGrau,10%)
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Site
+-------------------------------------------------- */
+html {
+  height: 101%;
+  font: $myFont;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background-color: $hgFarbe;
+  color: $TextGrau;
+}
+
+#logo {
+	width: 19.375rem;
+	margin: 2rem 0;
+}
+
+main {
+	width: 80%;
+	max-width: 40rem;
+	min-width: 20rem;
+	margin: 0 auto 2rem auto;
+}
+
+h2 {
+	font-size: 150%;
+	margin-bottom: $Abstand;
+	color: lighten($TextGrau,20%);
+}
+
+form {
+	border-top: 1px solid #444;
+	padding-top: $Abstand;
+	margin: $Abstand 0;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.anmerkung {
+	margin-bottom: $Abstand;
+}
+
+input[type="radio"] {
+	position: relative;
+	top: -2px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	margin-left: .6rem;
+	line-height: 1.55;
+}
+
+.studienrichtung,
+.adresse,
+.schon_mal_geprueft,
+.bewerbungsmappe {
+	border-bottom: 1px solid #444;
+	padding-bottom: $Abstand;
+	margin: $Abstand 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	font-size: 100%;
+	padding: .2rem;
+	transition: all .3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+input[type="text"] + label,
+input[type="email"] + label,
+input[type="tel"] + label {
+	display: block;
+	margin-bottom: $Abstand/2;
+	font-size: 70%;
+	font-style: italic;
+	opacity: 0;
+}
+
+input[type="text"]:focus + label,
+input[type="email"]:focus + label,
+input[type="tel"]:focus + label {
+	opacity: 1;
+}
+
+button {
+	padding: .4rem;
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	border: none;
+	font-size: 100%;
+	cursor: pointer;
+	
+	&#weiter {
+		width: 100%;
+	}
+}

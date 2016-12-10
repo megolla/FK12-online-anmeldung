@@ -1,0 +1,74 @@
+<mockup version="1.0" skin="sketch" fontFace="Helvetica" measuredW="1512" measuredH="1230" mockupW="1470" mockupH="1151">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="42" y="79" w="1249" h="1151" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>design.hm.edu</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="135" y="317" w="553" h="36" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>16</size>
+        <text>Anmeldungen%20*Industriedesign*%2C%20Wintersemester%202017/18</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="135" y="343" w="1067" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Button" x="135" y="1132" w="269" h="44" measuredW="138" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>16</size>
+        <text>CSV%20generieren</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::StickyNote" x="358" y="110" w="208" h="115" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Die%20Listen%20sind%20schon%20automatisch%20in%20unsere%20drei%20*Studienrichtungen*%20separiert%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="__group__" x="135" y="364" w="1067" h="741" measuredW="1067" measuredH="741" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="1067" h="741" measuredW="1062" measuredH="741" zOrder="0" locked="false" isInGroup="45">
+          <controlProperties>
+            <hLines>false</hLines>
+            <rowHeight>30</rowHeight>
+            <text>%u2116%20v%2C%20Name%20v%2C%20Vorname%20v%2C%20Mail%20v%2C%20Telefon%20v%2C%20Stra%DFe%20v%2C%20Stadt%20v%2C%20Land%20v%2C%20abgegeben%20v%2C%20Abgabedatum%20v%0A1%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%0A2%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%0A3%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%2C%20%u2714%2C%2012.5.17%0A4%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland%0A5%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%0A6%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%0A7%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%0A8%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland%0A9%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%0A10%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%2C%20%u2714%2C%2012.5.17%0A11%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%0A12%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland%0A13%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%0A14%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%0A15%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%0A16%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland%2C%20%u2714%2C%2022.5.17%0A17%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%0A18%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%0A19%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%0A20%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland%0A21%2C%20Mustermann%2C%20Max%2C%20max@gmx.net%2C%200176.657696%2C%2045654%20Musterweg%2012%2C%20Musterstadt%2C%20Deutschland%2C%20%u2714%2C%202.5.17%0A22%2C%20Klimm%2C%20Klara%2C%20kk@t-online.de%2C%2008022.97654%2C%20Kaltenbachstr.%2012%2C%2083700%20Tegernsee%2C%20Deutschland%0A23%2C%20Giogio%2C%20Francesco%2C%20giogio.francesco@tim.it%2C%200039.123.45667%2C%20Hoferweg%2012%2C%208754%20Bozen%2C%20Italien%0A24%2C%20Angere%2C%20Franz%2C%20angerer@t-online.de%2C%20089.456877%2C%20Holzweg%2012%2C%2080345%20M%FCnchen%2C%20Deutschland</text>
+            <vLines>true</vLines>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::StickyNote" x="1229" y="152" w="283" h="347" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ist%20es%20sehr%20aufw%E4ndig%2C%20wenn%20unsere%20Sekret%E4rin%20in%20der%20Liste%20die%20letzten%202%20Spalten%20bearbeiten%20kann%2C%20um%20einzutragen%2C%20wann%20jemand%20die%20Mappe%20abgegeben%20hat%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="__group__" x="135" y="256" w="1067" h="35" measuredW="1067" measuredH="35" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="454" h="31" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="52">
+          <controlProperties>
+            <size>18</size>
+            <text>%26Fotodesign%26%20%7C%20*Industriedesign*%20%7C%20%26Kommunikationsdesign%26</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="25" w="97" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="52"/>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="250" y="25" w="817" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="52"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="53" controlTypeID="__group__" x="135" y="176" w="224" h="53" measuredW="224" measuredH="53" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="51" h="53" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="53">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="59" y="10" w="165" h="43" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="53">
+          <controlProperties>
+            <text>Hochschule%20M%FCnchen%0AFakult%E4t%20f%FCr%20Design</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

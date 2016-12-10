@@ -1,0 +1,216 @@
+<mockup version="1.0" skin="sketch" fontFace="Helvetica" measuredW="849" measuredH="1325" mockupW="714" mockupH="1252">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="212" w="670" h="26" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>16</size>
+        <text>Bitte%20drucken%20Sie%20diese%20Seite%20aus%20und%20schneiden%20Sie%20diese%20an%20der%20gestrichelten%20Linie%20aus%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="327" w="553" h="31" measuredW="275" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>24</size>
+        <text>Bewerbung%20f%FCr%20die%20Studienrichtung%20*Fotodesign*%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Canvas" x="135" y="253" w="714" h="300" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>10066329</borderColor>
+        <borderStyle>roundedDotted</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="377" w="393" h="157" measuredW="275" measuredH="80" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>18</size>
+        <text>Maximilian%20Herbert%20Klaus%20*Mustermann*%0AMustergasse%2023a%0A54321%20Demo-Stadt%0ADeutschland%0A%20%0A0175%2065874213%0Amax.mustermann@gmx.de</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::StickyNote" x="673" y="73" w="176" h="123" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dies%20ist%20die%20Skizze%20des%20in%20der%20eMail%20mitgeschickte%20PDF%20zum%20Ausdrucken</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Canvas" x="135" y="577" w="714" h="748" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>10066329</borderColor>
+        <borderStyle>roundedDotted</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="662" w="553" h="31" measuredW="275" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>24</size>
+        <text>Bewerbung%20f%FCr%20die%20Studienrichtung%20*Fotodesign*%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="711" w="393" h="157" measuredW="275" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>18</size>
+        <text>Maximilian%20Herbert%20Klaus%20*Mustermann*%0AMustergasse%2023a%0A54321%20Demo-Stadt%0ADeutschland%0A%20%0A0175%2065874213%0Amax.mustermann@gmx.de</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="955" w="450" h="46" measuredW="275" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mit%20meiner%20Unterschrift%20best%E4tige%20ich%2C%20dass%20ich%20alle%20Arbeiten%20selbstst%E4ndig%20angefertigt%20habe</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="__group__" x="155" y="1049" w="198" h="41" measuredW="198" measuredH="41" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="11" w="117" h="30" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="56">
+          <controlProperties>
+            <size>16</size>
+            <text>Ort%2C%20Datum</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="198" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="56"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="57" controlTypeID="__group__" x="531" y="1049" w="292" h="37" measuredW="292" measuredH="37" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="11" w="117" h="26" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="57">
+          <controlProperties>
+            <size>16</size>
+            <text>Unterschrift</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="292" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="57"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::HRule" x="155" y="1129" w="670" h="-1" measuredW="100" measuredH="10" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="1157" w="448" h="27" measuredW="275" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <italic>true</italic>
+        <size>13</size>
+        <text>Erst%20beim%20*Abholen*%20der%20Mappe%20%28nach%20der%20Aufnahmepr%FCfung%29%20ausf%FCllen%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="1184" w="466" h="38" measuredW="275" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Die%20Mappe%20wurde%20mir%20zur%FCckgegeben%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="__group__" x="155" y="1262" w="198" h="41" measuredW="198" measuredH="41" zOrder="14" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="11" w="187" h="30" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>16</size>
+            <text>M%FCnchen%2C%20Datum</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="198" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="61"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="62" controlTypeID="__group__" x="531" y="1264" w="292" h="37" measuredW="292" measuredH="37" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="11" w="117" h="26" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="62">
+          <controlProperties>
+            <size>16</size>
+            <text>Unterschrift</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="292" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="62"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::HRule" x="155" y="905" w="654" h="-1" measuredW="100" measuredH="10" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="269" w="505" h="31" measuredW="275" measuredH="80" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <italic>true</italic>
+        <size>14</size>
+        <text>Kleben%20Sie%20dies%20*au%DFen%20auf%20Ihre%20Bewerbungsmappe%20%u2013%20Position%3A%20rechts%2C%20unten*</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="593" w="680" h="41" measuredW="275" measuredH="80" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <italic>true</italic>
+        <size>14</size>
+        <text>Legen%20Sie%20dies%20zusammen%20mit%20Ihrem%20gesonderten%20Lebenslauf%20%28mit%20Passfoto%29%20in%20Ihre%20Mappe%20%0A*Unterschreiben%20nicht%20vergessen%21*</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="__group__" x="676" y="398" w="149" h="130" measuredW="149" measuredH="130" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="2" y="0" w="146" h="130" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="70"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="71" w="149" h="26" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="70">
+          <controlProperties>
+            <align>center</align>
+            <text>%20_tr%E4gt%20Kommission%20ein_</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="34" y="32" w="80" h="41" measuredW="275" measuredH="80" zOrder="2" locked="false" isInGroup="70">
+          <controlProperties>
+            <align>center</align>
+            <color>10066329</color>
+            <size>40</size>
+            <text>%u2116</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="71" controlTypeID="__group__" x="676" y="738" w="149" h="130" measuredW="149" measuredH="130" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="2" y="0" w="146" h="130" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="71"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="71" w="149" h="26" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="71">
+          <controlProperties>
+            <align>center</align>
+            <text>%20_tr%E4gt%20Kommission%20ein_</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="34" y="32" w="80" h="41" measuredW="275" measuredH="80" zOrder="2" locked="false" isInGroup="71">
+          <controlProperties>
+            <align>center</align>
+            <color>10066329</color>
+            <size>40</size>
+            <text>%u2116</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="76" controlTypeID="__group__" x="767" y="269" w="58" h="42" measuredW="58" measuredH="42" zOrder="21" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="58" h="42" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="76"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="35" y="24" w="18" h="12" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="76">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>6710886</borderColor>
+            <color>6710886</color>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Arrow" x="9" y="7" w="21" h="18" measuredW="34" measuredH="28" zOrder="2" locked="false" isInGroup="76">
+          <controlProperties>
+            <color>13576743</color>
+            <curvature>0</curvature>
+            <direction>top</direction>
+            <leftArrow>false</leftArrow>
+            <p0>0%2C0</p0>
+            <p1>0.5%2C0</p1>
+            <p2>20.4%2C17.379310344827587</p2>
+            <shape>bezier</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="308" w="393" h="27" measuredW="275" measuredH="80" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <color>6710886</color>
+        <size>14</size>
+        <text>Studienjahr%20*2017/18*</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Paragraph" x="157" y="644" w="393" h="27" measuredW="275" measuredH="80" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <color>6710886</color>
+        <size>14</size>
+        <text>Studienjahr%20*2017/18*</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

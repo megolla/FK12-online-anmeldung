@@ -1,0 +1,56 @@
+<mockup version="1.0" skin="sketch" fontFace="Helvetica" measuredW="942" measuredH="698" mockupW="900" mockupH="658">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="42" y="40" w="900" h="658" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>design.hm.edu</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="231" w="553" h="45" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>24</size>
+        <text>Vielen%20Dank%20f%FCr%20Ihre%20Anmeldung%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Canvas" x="155" y="152" w="51" h="53" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>13576743</color>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Paragraph" x="214" y="162" w="165" h="43" measuredW="275" measuredH="80" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hochschule%20M%FCnchen%0AFakult%E4t%20f%FCr%20Design</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="316" w="654" h="48" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <italic>false</italic>
+        <size>16</size>
+        <text>Wir%20schicken%20Ihnen%20in%20den%20n%E4chsten%20Minuten%20einen%20Best%E4tigungs-Mail%20an%20%0Adie%20von%20Ihnen%20angegebene%20Email-Adresse.</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::HRule" x="155" y="276" w="654" h="-1" measuredW="100" measuredH="10" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Button" x="155" y="596" w="663" h="44" measuredW="275" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>16</size>
+        <text>zur%20Website%20der%20Fakult%E4t%20f%FCr%20Design</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="416" w="655" h="80" measuredW="275" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <size>20</size>
+        <text>Bitte%20drucken%20Sie%20das%20dort%20mitgeschickte%20Acrobat-Dokument%20aus%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="525" w="656" h="30" measuredW="275" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>_Aufnahme-Kommission%20der%20Fakult%E4t%20f%FCr%20Design%2C%20M%FCnchen_</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,52 @@
+<mockup version="1.0" skin="sketch" fontFace="Helvetica" measuredW="942" measuredH="698" mockupW="900" mockupH="658">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="42" y="40" w="900" h="658" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>design.hm.edu</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="231" w="553" h="45" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>24</size>
+        <text>Bitte%20kontrollieren%20Sie%20Ihre%20Angaben%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Button" x="155" y="591" w="313" h="44" measuredW="100" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <href>Startscreen%26bm%3BStartscreen.bmml%26bm%3BStartscreen.bmml%26bm%3BStartscreen.bmml</href>
+        <size>16</size>
+        <text>korrigieren</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Canvas" x="155" y="152" w="51" h="53" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>13576743</color>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Paragraph" x="214" y="162" w="165" h="43" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hochschule%20M%FCnchen%0AFakult%E4t%20f%FCr%20Design</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Paragraph" x="155" y="311" w="393" h="251" measuredW="275" measuredH="80" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>16</size>
+        <text>Bewerbung%20f%FCr%20die%20Studienrichtung%20*Fotodesign*%0A%20%0AMaximilian%20Herbert%20Klaus%20*Mustermann*%0A%20%0Amax.mustermann@gmx.de%0A0175%2065874213%0A%20%0AMustergasse%2023a%0A54321%20Demo-Stadt%0A%20%0ADeutschland%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::HRule" x="155" y="276" w="654" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Button" x="496" y="591" w="313" h="44" measuredW="105" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <href>Danke-Screen%26bm%3BDanke-Screen.bmml%26bm%3BDanke-Screen.bmml%26bm%3BDanke-Screen.bmml</href>
+        <size>16</size>
+        <text>abschicken</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
