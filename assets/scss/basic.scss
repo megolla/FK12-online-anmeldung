@@ -81,6 +81,7 @@ header {
 }
 
 main {
+	display: block;
 	width: 80%;
 	max-width: 40rem;
 	min-width: 19rem;
@@ -219,11 +220,6 @@ input[type="tel"]:focus + label {
 	margin: $Abstand 0;
 }
 
-// dieser Teil erst sichtbar, wenn angegeben wurde, dass man sich schon mal beworben hat
-#jaSchonMalBeworben {
-	// display: none;
-}
-
 .bewerbungsmappe {
 	border-bottom: none;
 	
@@ -273,7 +269,8 @@ button {
 	}
 	
 	p:nth-of-type(1),
-	p:nth-of-type(2){
+	p:nth-of-type(2),
+	p:nth-of-type(4){
 		margin-bottom: $Abstand;
 	}
 }
@@ -294,4 +291,120 @@ button {
 .formularResultat.danke {
 	padding: 0;
 	background-color: #fff;
+}
+
+/* Anmeldungsliste-Seite mit der Tabelle der Anmeldungen
+-------------------------------------------------- */
+
+// hat im Body eine eigene Klasse!
+.anmeldungsliste {
+	main {
+		// outline: 1px solid #ccc;
+		width: 96%;
+		max-width: 100rem;
+		min-width: 64rem;
+	}
+	
+	nav {
+		margin-bottom: $Abstand/2;
+		padding: .5rem .1rem;
+		
+		ul {
+			list-style-type: none;
+			background: #000;
+		}
+		
+		li {
+			float: left;
+			margin-right: 1rem;
+			padding: .5rem;
+			
+			&.current {
+				font-weight: bold;
+				background-color: #959595;
+				
+				a {
+					border-bottom: none;
+					cursor: default;
+				}
+			}
+		}
+		
+		a {
+			color: #fff;
+			
+		}
+	}
+	
+	h2 {
+		font-size: 100%;
+		
+		strong {
+			color: $rot;
+		}
+	}
+	
+	table {
+		font-size: 90%;
+		width: 100%;
+		margin-bottom: $Abstand;
+		border-collapse: collapse;
+	}
+	
+	// jede 2. Zeile leicht grauer HG
+	tbody tr:nth-of-type(even) td {
+		background-color: rgba(0,0,0,.05);
+	}
+	
+	// bei Hover wird die jeweilige Zeile grau hinterlegt
+	tbody tr:nth-of-type(even):hover td {
+		background-color: rgba(0,0,0,.20);
+	}
+	
+	tbody tr:nth-of-type(odd):hover td {
+		background-color: rgba(0,0,0,.15);
+	}
+
+	
+	th {
+		text-align: left;
+		font-weight: normal;
+		background: #000;
+		color: #fff;
+		border-right: 1px solid rgba(255,255,255,.8);
+		padding: .1rem;
+	}
+	
+	td {
+		border-right: 1px solid rgba(0,0,0,.07);
+		padding: .6rem .1rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	// Datum der Abgaben
+	th:nth-of-type(1),
+	td:nth-of-type(1){
+		text-align: right;
+	}
+	
+	// Durchlaufende Nummer
+	th:nth-of-type(2),
+	td:nth-of-type(2){
+		text-align: center;
+		font-weight: bold;
+		padding-left: .4rem;
+		padding-right: .4rem;
+	}
+	
+	// Mappen-Nummer betont
+	td:nth-of-type(2){
+		color: $rot;
+	}
+
+	
+	button {
+		width: 20rem;
+	}
 }

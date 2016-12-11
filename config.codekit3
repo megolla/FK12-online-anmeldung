@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/anmeldungs-liste-id.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anmeldungs-liste-id.php",
+		"oF": 0
+		},
 	"\/assets\/js\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -150,12 +156,6 @@
 		"oAP": "\/p\/FK12_Logo_pur.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/~balsamiq\/anmeldung.bmpr": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/~balsamiq\/anmeldung.bmpr",
-		"oF": 0
 		},
 	"\/~balsamiq\/anmeldung.pdf": {
 		"ft": 8192,

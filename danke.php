@@ -34,10 +34,5 @@
 
 </main>
 
-<!-- bisher nicht benötigt! -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
-<script src="assets/scripte-min.js?v=1.0"></script>
-
 </body>
 </html>
