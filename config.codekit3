@@ -107,16 +107,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/controlle.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -156,6 +146,24 @@
 		"oAP": "\/p\/FK12_Logo_pur.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/~balsamiq\/anmeldung.bmpr": {
 		"ft": 8192,
