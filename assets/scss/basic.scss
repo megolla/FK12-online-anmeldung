@@ -61,20 +61,37 @@ html {
   color: $TextGrau;
 }
 
-#logo {
-	width: 19.375rem;
+header {
+	// outline: 1px solid #ccc;
 	margin: 2rem 0;
+	
+	
+	#logo {
+		width: 12rem;
+		margin-left: -.4rem;
+		float:left;
+	}
+	
+	h1 {
+		border-left: 1px solid #ccc;
+		margin: 1.65rem 0 0 1rem;
+		padding: 2.2rem 0 0 1rem;
+		float: left;
+	}
 }
 
 main {
 	width: 80%;
 	max-width: 40rem;
-	min-width: 20rem;
+	min-width: 19rem;
 	margin: 0 auto 2rem auto;
+	// outline: 1px solid #ccc;
 }
 
 h2 {
 	font-size: 150%;
+	line-height: 1.2;
+	//font-weight: bold;
 	margin-bottom: $Abstand;
 	color: lighten($TextGrau,20%);
 }
@@ -116,7 +133,8 @@ input[type="checkbox"] + label {
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 3px solid #fff;
+	background-color: rgba(0,0,0,.05);
 	width: 100%;
 	font-size: 100%;
 	padding: .2rem;
@@ -126,7 +144,8 @@ input[type="tel"] {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus {
-	background-color: rgba(255, 0, 0, 0.1);
+	border-bottom: 3px solid #444;
+	background-color: transparent;
 }
 
 input[type="text"] + label,
@@ -134,15 +153,91 @@ input[type="email"] + label,
 input[type="tel"] + label {
 	display: block;
 	margin-bottom: $Abstand/2;
+	margin-left: .3em;
 	font-size: 70%;
 	font-style: italic;
+	color: red;
 	opacity: 0;
+	transition: all .3s;
 }
 
 input[type="text"]:focus + label,
 input[type="email"]:focus + label,
 input[type="tel"]:focus + label {
 	opacity: 1;
+}
+
+// Straße und Haus-Nummer nebeneinander stehen
+.strassenkombi {
+	display: flex;
+	
+	div:nth-of-type(1){
+		flex-basis: 66%;
+	}
+	
+	div:nth-of-type(2){
+		flex-basis: 33%;
+		margin-left: .3rem;
+	}
+}
+
+// PLZ und Stadt nebeneinander stehen
+.stadtkombi {
+	display: flex;
+	
+	div:nth-of-type(1){
+		flex-basis: 33%;
+	}
+	
+	div:nth-of-type(2){
+		flex-basis: 66%;
+		margin-left: .3rem;
+	}
+}
+
+// Abfrage, ob schon mal Prüfung gemacht wurde
+.pruefung_wiederholung {
+	display: flex;
+	margin: $Abstand 0 0 0;
+	
+	div:nth-of-type(1){
+		flex-basis: 33%;
+	}
+	
+	div:nth-of-type(2){
+		flex-basis: 33%;
+		margin-left: .3rem;
+	}
+	
+	div:nth-of-type(3){
+		flex-basis: 33%;
+		margin-left: .3rem;
+	}
+}
+
+.studienrichtung_wiederholung {
+	margin: $Abstand 0;
+}
+
+// dieser Teil erst sichtbar, wenn angegeben wurde, dass man sich schon mal beworben hat
+#jaSchonMalBeworben {
+	// display: none;
+}
+
+.bewerbungsmappe {
+	border-bottom: none;
+	
+	input {
+		float:left;
+		width: .8rem;
+		position: relative;
+		top: .3rem;
+	}
+	
+	label {
+		float: left;
+		width: 90%;
+	}
 }
 
 button {
@@ -152,8 +247,51 @@ button {
 	border: none;
 	font-size: 100%;
 	cursor: pointer;
+	transition: all .3s;
+	
+	&:hover {
+		background-color: rgba(0,0,0,.8);
+	}
 	
 	&#weiter {
 		width: 100%;
 	}
+}
+
+/* Kontroll-Seite
+-------------------------------------------------- */
+
+.formularResultat {
+	margin: $Abstand 0;
+	padding: 1rem 0;
+	background-color: rgba(0,0,0,.05);
+	padding-left: .4rem;
+	padding-right: .4rem;
+	
+	h3 {
+		font-weight: normal;
+	}
+	
+	p:nth-of-type(1),
+	p:nth-of-type(2){
+		margin-bottom: $Abstand;
+	}
+}
+
+.zweibuttons {
+	display: flex;
+	justify-content:space-between;
+	
+	button {
+		flex-basis: 49.6%;
+		
+	}
+}
+
+/* Danke-Seite
+-------------------------------------------------- */
+
+.formularResultat.danke {
+	padding: 0;
+	background-color: #fff;
 }

@@ -49,6 +49,32 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/mediumscreen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/mediumscreen.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/smallscreen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/smallscreen.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -114,6 +140,14 @@
 		"iS": 10407,
 		"oA": 0,
 		"oAP": "\/p\/FK12_Logo.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/p\/FK12_Logo_pur.jpg": {
+		"ft": 16384,
+		"iS": 2645,
+		"oA": 0,
+		"oAP": "\/p\/FK12_Logo_pur.jpg",
 		"oF": 0,
 		"opt": 0
 		},

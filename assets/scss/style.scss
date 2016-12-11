@@ -7,13 +7,12 @@
 
 @import "basic";
 
-// 896px und kleiner
-@media only screen and (max-width: 56em){
-	// @import "mediumscreen";
+// 680px und kleiner
+@media only screen and (max-width: 42.5rem){
+	@import "mediumscreen";
 }
 
 // 480px und kleiner
-// ACHTUNG: da ist noch eine zusätzliche Media-Query (< 400px) eingebaut!
-@media only screen and (max-width: 30em){
-	// @import "smallscreen";
+@media only screen and (max-width: 30rem){
+	@import "smallscreen";
 }

@@ -11,29 +11,30 @@
 <link rel="stylesheet" href="assets/style.css?v=1.0">
 </head>
 
-<body class="danke">
+<body>
 
 <main>
 	
-<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" width="400" height="122">
+<header class="cf">
+<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" srcset="p/FK12_Logo.jpg 600w, p/FK12_Logo_pur.jpg 317w" sizes="33vw">
+<h1>Fakultät für Design</h1>
+</header>
 
 <h2>Vielen Dank für Ihre Anmeldung!</h2>
 
-<div class="formularResultat">
+<div class="formularResultat danke">
 
 <p>Wir schicken Ihnen in den nächsten Minuten einen Bestätigungs-Mail an die von Ihnen angegebene Email-Adresse.</p>
  
-<p><strong>Bitte drucken Sie das dort mitgeschickte Acrobat-Dokument aus!</strong></p>
+<p><strong>Bitte drucken Sie das dort mitgeschickte <a href="https://get.adobe.com/de/reader/" title=''>Acrobat-Dokument</a> aus!</strong></p>
 
 <p><em>Aufnahme-Kommission der Fakultät für Design, München</em></p>
 
 </div>
 
-<p><a href="http://design.hm.edu/" title=''>→ Startseite der Fakultät für Design, Hochschule München</a></p>
-
 </main>
 
-<!-- https://developers.google.com/speed/libraries/devguide -->
+<!-- bisher nicht benötigt! -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script src="assets/scripte-min.js?v=1.0"></script>

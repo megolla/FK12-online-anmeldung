@@ -1,0 +1,17 @@
+// 680px und kleiner
+.pruefung_wiederholung {
+	display: block;
+	
+	div {
+		margin-left: 0 !important;
+	}
+}
+
+/* auf kleinen Screens soll das Textfeld "Jahreszahl" unterhalb "Ja, im Wintersemester" stehen */
+
+#jahreszahl {
+	width: 10rem;
+	margin-left: 1.3rem;
+}
+
+

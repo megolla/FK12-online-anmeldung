@@ -1,0 +1,36 @@
+// 480px und kleiner
+header {
+	margin: 1rem 0 1.5rem 0;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #ccc;
+	
+	#logo {
+		width: 4rem;
+		margin-left: -.2rem;
+	}
+	
+	h1 {
+		margin: 0 0 0 .5rem;
+		padding-left: .5rem;
+	}
+}
+
+h2 {
+	font-size: 125%;
+}
+
+h3 {
+	margin-bottom: $Abstand;
+}
+
+// Straße und Haus-Nummer 
+// und PLZ und Stadt
+//sollen hier untereinander stehen
+.strassenkombi,
+.stadtkombi {
+	display: block;
+	
+	div {
+		margin-left: 0 !important;
+	}
+}

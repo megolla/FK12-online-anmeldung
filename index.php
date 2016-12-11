@@ -11,14 +11,17 @@
 <link rel="stylesheet" href="assets/style.css?v=1.0">
 </head>
 
-<body class="startseite">
+<body>
 
 <main>
-	
-<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" width="400" height="122">
+
+<header class="cf">
+<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" srcset="p/FK12_Logo.jpg 600w, p/FK12_Logo_pur.jpg 317w" sizes="33vw">
+<h1>Fakultät für Design</h1>
+</header>
 
 <h2>Vielen Dank für Ihr Interesse an unserer Fakultät!</h2>
-<p>Bitte fühlen Sie <strong>alle</strong> unten genannten Punkte sorgfältig aus – nur so können Sie sicher stellen, dass Ihre Anmeldung problemlos funktioniert!</p>
+<p><strong>Bitte fühlen Sie alle unten genannten Punkte sorgfältig aus</strong> – nur so können Sie sicher stellen, dass Ihre Anmeldung problemlos funktioniert!</p>
 
 <form action="controlle.php">
 	
@@ -27,9 +30,9 @@
 
 <!-- Studienrichtung -->
 <section class="studienrichtung">
-<input type="radio" id="Fotodesign" name="Studienrichtung" value="Fotodesign"><label for="Fotodesign">Fotodesign</label><br>
-<input type="radio" id="Industriedesign" name="Studienrichtung" value="Industriedesign"><label for="Industriedesign">Industriedesign</label><br>
-<input type="radio" id="Kommunikationsdesign" name="Studienrichtung" value="Kommunikationsdesign"><label for="Kommunikationsdesign">Kommunikationsdesign</label>
+<input type="radio" id="Fotodesign" name="Studienrichtung" value="Fotodesign" required><label for="Fotodesign">Fotodesign</label><br>
+<input type="radio" id="Industriedesign" name="Studienrichtung" value="Industriedesign" required><label for="Industriedesign">Industriedesign</label><br>
+<input type="radio" id="Kommunikationsdesign" name="Studienrichtung" value="Kommunikationsdesign" required><label for="Kommunikationsdesign">Kommunikationsdesign</label>
 </section>
 
 <hr>
@@ -61,14 +64,25 @@
 <label>Telefon-Nummer</label>
 </div>
 
+<section class="strassenkombi">
+
 <div>
 <input type="text" placeholder="Straße" required>
 <label>Straße</label>
 </div>
 
 <div>
-<input type="text" placeholder="Nummer" required>
-<label>Nummer</label>
+<input type="text" placeholder="Hausnummer" required>
+<label>Hausnummer</label>
+</div>
+
+</section><!-- /strassenkombi -->
+
+<section class="stadtkombi">
+
+<div>
+<input type="text" placeholder="PLZ" required>
+<label>PLZ</label>
 </div>
 
 <div>
@@ -76,44 +90,12 @@
 <label>Stadt</label>
 </div>
 
-<div>
-<input type="text" placeholder="PLZ" required>
-<label>PLZ</label>
-</div>
+</section><!-- /stadtkombi -->
 
-<select>
-<option value="BE" >Belgien</option>
-<option value="BG" >Bulgarien</option>
-<option value="DK" >Dänemark</option>
-<option value="DE" selected="selected" >Deutschland</option>
-<option value="EE" >Estland</option>
-<option value="FI" >Finnland</option>
-<option value="FR" >Frankreich</option>
-<option value="GR" >Griechenland</option>
-<option value="IE" >Irland</option>
-<option value="IS" >Island</option>
-<option value="IT" >Italien</option>
-<option value="HR" >Kroatien</option>
-<option value="LV" >Lettland</option>
-<option value="LT" >Litauen</option>
-<option value="LU" >Luxemburg</option>
-<option value="MT" >Malta</option>
-<option value="NL" >Niederlande</option>
-<option value="NO" >Norwegen</option>
-<option value="AT" >Österreich</option>
-<option value="PL" >Polen</option>
-<option value="PT" >Portugal</option>
-<option value="RO" >Rumänien</option>
-<option value="SE" >Schweden</option>
-<option value="CH" >Schweiz</option>
-<option value="SK" >Slowakei</option>
-<option value="SI" >Slowenien</option>
-<option value="ES" >Spanien</option>
-<option value="CZ" >Tschechische Republik</option>
-<option value="HU" >Ungarn</option>
-<option value="GB" >Vereinigtes Königreich</option>
-<option value="CY" >Zypern</option>
-</select>
+<div>
+<input type="text" placeholder="Land" required>
+<label>Land</label>
+</div>
 
 </section>
 
@@ -121,35 +103,47 @@
 
 <section class="schon_mal_geprueft">
 
-<div>
-<p>Ich habe bereits einmal die Eignungsprüfung für den Studiengang Design an der Hochschule München abgelegt</p>
 
-<input type="radio" id="Pruefung_nein" name="Pruefung_schon_mal_gemacht" value="nein"><label for="Pruefung_nein">nein</label>
-<input type="radio" id="Pruefung_ja" name="Pruefung_schon_mal_gemacht" value="ja"><label for="Pruefung_ja">ja, im Wintersemester</label> <input type="text" placeholder="Jahreszahl">
+<p>Ich habe bereits einmal die <strong>Eignungsprüfung für den Studiengang Design</strong> an der Hochschule&#160;München abgelegt</p>
 
-</div>
+<!-- schon mal Aufnahmeprüfung? -->
+<section class="pruefung_wiederholung cf">
+<div><input type="radio" id="Pruefung_nein" name="Pruefung_schon_mal_gemacht" value="nein" required><label for="Pruefung_nein">nein</label></div>
 
-<!-- Studienrichtung schon mal Aufnahmeprüfung -->
-<div>
-<input type="radio" id="Fotodesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Fotodesign"><label for="Fotodesign_schon_mal_Aufnahmepruefung">Fotodesign</label><br>
-<input type="radio" id="Industriedesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Industriedesign_schon_mal_Aufnahmepruefung"><label for="Industriedesign_schon_mal_Aufnahmepruefung">Industriedesign</label><br>
-<input type="radio" id="Kommunikationsdesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Kommunikationsdesign_schon_mal_Aufnahmepruefung"><label for="Kommunikationsdesign_schon_mal_Aufnahmepruefung">Kommunikationsdesign</label>
-</div>
 
-<!-- Ergebniss der Aufnahme-Prüfung -->
-<div>
-Ergebnis:
-<input type="radio" id="Pruefung_schon_mal_bestanden_ja" name="Pruefung_schon_mal_bestanden" value="nein"><label for="Pruefung_schon_mal_bestanden_ja">bestanden</label>
-<input type="radio" id="Pruefung_schon_mal_bestanden_nein" name="Pruefung_schon_mal_bestanden" value="ja"><label for="Pruefung_schon_mal_bestanden_nein">nicht bestanden</label>
-</div>
+<div><input type="radio" id="Pruefung_ja" name="Pruefung_schon_mal_gemacht" value="ja" required><label for="Pruefung_ja">ja, im Wintersemester</label></div>
+<div><input id="jahreszahl" type="text" placeholder="Jahreszahl"></div>
+
 
 </section>
 
+<!-- dieser Teil erst sichtbar, wenn ja ausgewählt wurde! -->
+
+<div id="jaSchonMalBeworben">
+
+<!-- Studienrichtung schon mal Aufnahmeprüfung -->
+<section class="studienrichtung_wiederholung">
+<div><input type="radio" id="Fotodesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Fotodesign"><label for="Fotodesign_schon_mal_Aufnahmepruefung">Fotodesign</label></div>
+<div><input type="radio" id="Industriedesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Industriedesign_schon_mal_Aufnahmepruefung"><label for="Industriedesign_schon_mal_Aufnahmepruefung">Industriedesign</label><br></div>
+<div><input type="radio" id="Kommunikationsdesign_schon_mal_Aufnahmepruefung" name="Studienrichtung_schon_mal_Aufnahmepruefung" value="Kommunikationsdesign_schon_mal_Aufnahmepruefung"><label for="Kommunikationsdesign_schon_mal_Aufnahmepruefung">Kommunikationsdesign</label></div>
+</section>
+
+<!-- Ergebniss der Aufnahme-Prüfung -->
+<section class="pruefung_wiederholung">
+<div>Ergebnis:</div>
+<div><input type="radio" id="Pruefung_schon_mal_bestanden_ja" name="Pruefung_schon_mal_bestanden" value="nein"><label for="Pruefung_schon_mal_bestanden_ja">bestanden</label></div>
+<div><input type="radio" id="Pruefung_schon_mal_bestanden_nein" name="Pruefung_schon_mal_bestanden" value="ja"><label for="Pruefung_schon_mal_bestanden_nein">nicht bestanden</label></div>
+</section>
+
+</div><!-- /jaSchonMalBeworben -->
+
+</section><!-- /schon_mal_geprueft -->
+
 <hr>
 
-<section class="bewerbungsmappe">
+<section class="bewerbungsmappe cf">
 	
-<input type="checkbox" id="Bewerbungsmappe" name="Bewerbungsmappe" value="zugestimmt"><label for="Bewerbungsmappe">Ich verpflichte mich hiermit, meine Bewerbungsmappe nicht vor Abschluss des Bewerbungsverfahren abzuholen</label>
+<input type="checkbox" id="Bewerbungsmappe" name="Bewerbungsmappe" value="zugestimmt" required><label for="Bewerbungsmappe">Ich verpflichte mich, meine Bewerbungsmappe nicht vor Abschluss des Bewerbungsverfahren abzuholen</label>
 
 </section>
 
@@ -159,7 +153,7 @@ Ergebnis:
 	
 </main>
 
-<!-- https://developers.google.com/speed/libraries/devguide -->
+<!-- bisher nicht benötigt! -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script src="assets/scripte-min.js?v=1.0"></script>

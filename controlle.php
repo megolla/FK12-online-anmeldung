@@ -11,13 +11,16 @@
 <link rel="stylesheet" href="assets/style.css?v=1.0">
 </head>
 
-<body class="controlle">
+<body>
 
 <main>
 	
-<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" width="400" height="122">
+<header class="cf">
+<img id="logo" src="p/FK12_Logo.jpg" alt="Fakultät für Design, Hochschule München" srcset="p/FK12_Logo.jpg 600w, p/FK12_Logo_pur.jpg 317w" sizes="33vw">
+<h1>Fakultät für Design</h1>
+</header>
 
-<h2>Bitte kontrollieren Sie Ihre Angaben:</h2>
+<h2>Bitte kontrollieren Sie Ihre Angaben genau:</h2>
 
 <div class="formularResultat">
 <h3>Bewerbung für die Studienrichtung <strong>Fotodesign</strong></h3>
@@ -31,11 +34,13 @@
 <p>Deutschland</p>
 </div>
 
+<div class="zweibuttons">
 <button>korrigieren</button><button>abschicken</button>
+</div>
 	
 </main>
 
-<!-- https://developers.google.com/speed/libraries/devguide -->
+<!-- bisher nicht benötigt! -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script src="assets/scripte-min.js?v=1.0"></script>
