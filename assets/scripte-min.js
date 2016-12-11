@@ -1,0 +1,1 @@
+$(function(){$("#jaSchonMalBeworben").hide(),$("input[name=Pruefung_schon_mal_gemacht]:radio").click(function(){"ja"===$(this).attr("value")&&($("#jaSchonMalBeworben").slideDown("fast"),$("#jaSchonMalBeworben input").attr("required","required")),"nein"===$(this).attr("value")&&($("#jaSchonMalBeworben").slideUp("fast"),$("#jaSchonMalBeworben input").removeAttr("required"))})});

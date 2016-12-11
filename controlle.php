@@ -32,18 +32,25 @@
 <p>Mustergasse 23a<br>54321 Demo-Stadt</p>
 
 <p>Deutschland</p>
+
+<!-- entweder noch nicht teilgenommem -->
+<!--
+<p>Die Eignungsprüfung für den Studiengang Design an der Hochschule München habe ich noch nicht abgelegt!</p>
+-->
+
+<!-- oder schon teilgenommen -->
+<p>Ich habe bereits einmal die Eignungsprüfung für den Studiengang Design an der Hochschule München im Wintersemester 2016, Studienrichtung FD abgelegt ohne diese bestanden zu haben!</p>
 </div>
 
 <div class="zweibuttons">
+<!-- 
+	korrigieren: zurück zur Formular-Seite
+	abschicken: zur Danke-Seite
+-->	
 <button>korrigieren</button><button>abschicken</button>
 </div>
 	
 </main>
-
-<!-- bisher nicht benötigt! -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
-<script src="assets/scripte-min.js?v=1.0"></script>
 
 </body>
 </html>

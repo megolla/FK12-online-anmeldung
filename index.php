@@ -103,7 +103,6 @@
 
 <section class="schon_mal_geprueft">
 
-
 <p>Ich habe bereits einmal die <strong>Eignungsprüfung für den Studiengang Design</strong> an der Hochschule&#160;München abgelegt</p>
 
 <!-- schon mal Aufnahmeprüfung? -->
@@ -118,6 +117,8 @@
 </section>
 
 <!-- dieser Teil erst sichtbar, wenn ja ausgewählt wurde! -->
+
+<!-- =============== anfangs unsichtbar / Anfang ========== -->
 
 <div id="jaSchonMalBeworben">
 
@@ -137,6 +138,8 @@
 
 </div><!-- /jaSchonMalBeworben -->
 
+<!-- =============== anfangs unsichtbar / Ende ========== -->
+
 </section><!-- /schon_mal_geprueft -->
 
 <hr>
@@ -153,7 +156,7 @@
 	
 </main>
 
-<!-- bisher nicht benötigt! -->
+<!-- bisher nur zum Abfragen bei "ja" vor "#jaSchonMalBeworben" verwendet -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script src="assets/scripte-min.js?v=1.0"></script>
