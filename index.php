@@ -21,7 +21,7 @@
 </header>
 
 <h2>Vielen Dank für Ihr Interesse an unserer Fakultät!</h2>
-<p><strong>Bitte fühlen Sie alle unten genannten Punkte sorgfältig aus</strong> – nur so können Sie sicher stellen, dass Ihre Anmeldung problemlos funktioniert!</p>
+<p><strong>Bitte füllen Sie alle unten genannten Punkte sorgfältig aus</strong> – nur so können Sie sicher stellen, dass Ihre Anmeldung problemlos funktioniert!</p>
 
 <form action="controlle.php">
 	
