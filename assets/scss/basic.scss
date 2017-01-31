@@ -105,6 +105,7 @@ form {
 
 h3 {
 	font-weight: bold;
+	
 }
 
 .anmerkung {
@@ -252,6 +253,12 @@ button {
 	&#weiter {
 		width: 100%;
 	}
+}
+
+#datenschutzLink {
+	font-size: 80%;
+	text-align: right;
+	margin-top: $Abstand;
 }
 
 /* Kontroll-Seite
@@ -407,4 +414,20 @@ button {
 	button {
 		width: 20rem;
 	}
+}
+
+/* Datenschutz-Seite
+-------------------------------------------------- */
+.datenschutz {
+	hyphens: auto;
+}
+
+.datenschutz h3 {
+	font-weight: bold !important;
+	color: $rot;
+	margin: $Abstand 0;
+}
+
+.datenschutz p+p {
+	text-indent: $Abstand;
 }
