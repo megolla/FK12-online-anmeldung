@@ -148,9 +148,15 @@
 	
 <input type="checkbox" id="Bewerbungsmappe" name="Bewerbungsmappe" value="zugestimmt" required><label for="Bewerbungsmappe">Ich verpflichte mich, meine Bewerbungsmappe nicht vor Abschluss des Bewerbungsverfahren abzuholen</label>
 
+<div style="clear:both;padding: .5em 0"></div>
+
+<input type="checkbox" id="OnlineAnmeldungHM" name="OnlineAnmeldungHM" value="zugestimmt" required><label for="OnlineAnmeldungHM">Ich weiss, dass ich mich zusätzlich über die <a href="https://www.hm.edu/studieninteressiert/bewerbung/bachelor_bewerbung/index.de.html" title='' target="_blank">Homepage der Abteilung Studium der Hochschule München</a> bewerben muss!</label>
+
 </section>
 
 <button id="weiter">weiter</button>
+
+<p id="datenschutzLink"><a href="datenschutzhinweis.php" title='' target="_blank">Datenschutzhinweis</a></p>
 
 </form>
 	

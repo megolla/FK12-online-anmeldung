@@ -25,10 +25,15 @@
 <div class="formularResultat danke">
 
 <p>Wir schicken Ihnen in den nächsten Minuten einen Bestätigungs-Mail an die von Ihnen angegebene Email-Adresse.</p>
- 
-<p><strong>Bitte drucken Sie das dort mitgeschickte <a href="https://get.adobe.com/de/reader/" title=''>Acrobat-Dokument</a> aus!</strong></p>
 
-<p><em>Aufnahme-Kommission der Fakultät für Design, München</em></p>
+<!--
+<p><strong>Bitte drucken Sie das dort mitgeschickte <a href="https://get.adobe.com/de/reader/" title=''>Acrobat-Dokument</a> aus!</strong></p>-->
+
+<p><strong>Bitte drucken Sie die eMail aus und kleben Sie den Etiketten-Aufkleber auf Ihre Mappe!</strong></p>
+
+<p>Bitte vergessen Sie nicht, sich zusätzlich über die <a href="https://www.hm.edu/studieninteressiert/bewerbung/bachelor_bewerbung/index.de.html" title='' target="_blank">Homepage der Abteilung Studium der Hochschule München</a> zu bewerben!</p>
+
+<p style="margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #ccc;"><em>Aufnahme-Kommission der Fakultät für Design, München</em></p>
 
 </div>
 

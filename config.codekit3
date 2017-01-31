@@ -7,7 +7,7 @@
 		"uuidString": "BB2794E6-4F69-4D4A-A015-FE4C4789FED0"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25504",
 "files": {
 	"\/anmeldungs-liste-id.php": {
 		"ft": 8192,
@@ -129,11 +129,33 @@
 		"oAP": "\/danke.php",
 		"oF": 0
 		},
+	"\/datenschutzhinweis.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/datenschutzhinweis.php",
+		"oF": 0
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
+		},
+	"\/html-email-assets\/aufkleber-position.gif": {
+		"ft": 4194304,
+		"iS": 1332,
+		"oA": 0,
+		"oAP": "\/html-email-assets\/aufkleber-position.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/html-email-assets\/ziffern-rahmen.gif": {
+		"ft": 4194304,
+		"iS": 1558,
+		"oA": 0,
+		"oAP": "\/html-email-assets\/ziffern-rahmen.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/html-email.html": {
 		"ft": 8192,
@@ -141,11 +163,37 @@
 		"oAP": "\/html-email.html",
 		"oF": 0
 		},
+	"\/html-email_ALT.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/html-email_ALT.html",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/online-editiertes-css\/170126_style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/online-editiertes-css\/170126_style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/online-editiertes-css\/170126_style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/online-editiertes-css\/170126_style-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/p\/FK12_Logo.jpg": {
 		"ft": 16384,
@@ -251,7 +299,7 @@
 "projectAttributes": {
 	"creationDate": 503082088,
 	"displayValue": "online-anmeldung",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
@@ -696,6 +744,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -860,6 +912,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -889,6 +945,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1224,6 +1284,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1428,6 +1492,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1455,6 +1523,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2288,6 +2360,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
