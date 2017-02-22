@@ -45,7 +45,10 @@
 <h3>4. Nutzung und Weitergabe der personenbezogenen Daten</h3>
 <p>Die von Ihnen zur Verfügung gestellten personenbezogenen Daten verwenden wir ausschließlich zur Erfüllung Ihrer Wünsche und Anforderungen, also zur Bearbeitung Ihrer Bewerbung. Eine Weitergabe Ihrer personenbezogenen Daten erfolgt nur innerhalb der Hochschule München und nur im Rahmen des Bewerbungsprozesses an im Bewerbungsprozess beteiligte Personen. Eine Übermittlung von personenbezogenen Daten, d.h. eine Weitergabe an Stellen außerhalb der Hochschule München findet nicht statt.</p>
 
-<h3>5. Sicherheit</h3>
+<h3>5. Datenspeicherun-/löschung</h3>
+<p>Die erfassten Daten werden in einer Datenbank zur weiteren Verarbeitung im Rahmen der Bewerberauswahl gespeichert. Nach erfolgter Bewerberauswahl werden die gespeicherten Daten jeweils nach Semesterende gelöscht.</p>
+
+<h3>6. Sicherheit</h3>
 <p>Alle notwendigen technischen und organisatorischen Sicherheitsmaßnahmen, um Ihre personenbezogenen Daten vor Verlust und Missbrauch zu schützen, werden von uns getroffen.</p>
 
 <p style="margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #ccc; text-indent: 0;"><em>Aufnahme-Kommission der Fakultät für Design, München</em></p>
